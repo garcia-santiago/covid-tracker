@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "start": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "postinstall": "if test \"$NODE_ENV\" = \"production\" ; then npm run build ; fi "
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",
